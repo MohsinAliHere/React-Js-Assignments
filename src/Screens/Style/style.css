@@ -1,0 +1,106 @@
+.LoginContainer {
+  width: 350px !important;
+  height: 320px !important;
+  margin: auto !important;
+  margin-top: 100px !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4) !important;
+}
+
+.titleBar {
+  padding: 15px !important;
+  background-color: #006d77 !important;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #006d77;
+  outline: none;
+  margin: 15px 0px;
+  font-size: large !important;
+}
+.btn {
+  margin: 25px 0 !important;
+  border: 1px solid #006d77 !important;
+  color: #006d77 !important;
+  font-weight: bold !important;
+}
+
+.QuizContainer {
+  width: 100% !important;
+  max-width: 850px !important;
+  max-height: 430px !important;
+  margin: auto !important;
+  margin-top: 100px !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4) !important;
+}
+
+.Quiztitle {
+  padding: 15px !important;
+  background-color: #006d77 !important;
+}
+
+span {
+  font-size: larger !important;
+}
+
+.nextbtn {
+  margin: 25px 15px !important;
+  background-color: #006d77 !important;
+  font-weight: bolder !important;
+}
+
+.ResultContainer {
+  width: 100% !important;
+  max-width: 450px !important;
+  height: auto !important;
+  margin: auto !important;
+  margin-top: 100px !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4) !important;
+}
+.resultSummary {
+  background-color: #006d77 !important;
+  padding: 15px !important;
+}
+
+.ViewAns {
+  border: 1px solid #006d77 !important;
+  color: #006d77 !important;
+  font-weight: bolder !important;
+}
+
+.ViewAnsContainer {
+  width: 100% !important;
+  max-width: 700px !important;
+  height: 500px !important;
+  margin: auto !important;
+  margin-top: 100px !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4) !important;
+}
+
+.Ansrender {
+  width: 100% !important;
+  height: 390px !important;
+  overflow-y: scroll !important;
+  scroll-behavior: smooth !important;
+}
+
+.rightAns {
+  padding: 5px !important;
+  border: 2px solid green;
+  border-radius: 8px !important;
+}
+.WrongAns {
+  padding: 5px !important;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 8px !important;
+}
+.chip {
+  background-color: rgb(233, 233, 233);
+  padding: 4px 8px;
+  border-radius: 10px;
+  text-align: center !important;
+}
